@@ -42,7 +42,7 @@ import image from './assets/myimage.jpg'
         </div>
 
         </div>
-        <div class=" grid gap-10">
+        <div class=" pt-5 grid gap-10">
           <div id="about"
             class="p-5 hover:shadow-lg rounded-lg duration-150 border border-transparent hover:border-teal-400 hover:shadow-teal-400">
             <div class="grid gap-3">
