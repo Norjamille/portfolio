@@ -1,5 +1,6 @@
 <script setup>
 import image from './assets/myimage.jpg'
+import Works from './components/Works.vue';
 </script>
 
 <template>
@@ -137,14 +138,20 @@ import image from './assets/myimage.jpg'
             </div>
           </div>
 
+          <Works />
+         
+
           <div id="contact"
             class="p-5 hover:shadow-lg rounded-lg duration-150 border border-transparent hover:border-teal-400 hover:shadow-teal-400">
             <div class="grid gap-3">
               <h1 class="uppercase text-teal-300 font-semibold text-2xl">
                 Contact me
               </h1>
-              <p class="text-white ind">
-                  Email : norjamille.kasan@gmail.com
+              <h1 class="text-white font-semibold text-lg">
+                Currently, I am looking for opportunities and accepting freelance projects. If you think I am a good asset, kindly send me a message. 
+              </h1>
+              <p class="text-teal-300 font-semibold text-lg">
+                 norjamille.kasan@gmail.com
               </p>
             </div>
           </div>
